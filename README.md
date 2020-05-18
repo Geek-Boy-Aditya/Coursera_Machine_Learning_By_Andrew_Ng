@@ -1,6 +1,6 @@
 # Machine_Learning
 
-![](/images/GD1.png)
+![](/images/ML.png)
 
 [Machine Learning is the] field of study that gives computers the ability to learn without being explicitly programmed. —Arthur Samuel, 1959
 
