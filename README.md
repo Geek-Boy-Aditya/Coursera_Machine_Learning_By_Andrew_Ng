@@ -13,14 +13,14 @@ Repository containing a portfolio of machine learning projects and weekly progre
 
 I have started doing Andrew Ng’s popular machine learning course on Coursera. The first week covers a lot, at least for someone who hasn’t touched much calculus for a few years
 
-#### Model Representation
+## Model Representation
 First, the goal of most machine learning algorithms is to construct a model: a hypothesis that can be used to estimate Y based on X. The hypothesis, or model, maps inputs to outputs. So, for example, say I train a model based on a bunch of housing data that includes the size of the house and the sale price. By training a model, I can give you an estimate on how much you can sell your house for based on it’s size. This is an example of a regression problem — given some input, we want to predict a continuous output.
 The hypothesis is usually presented as
 
 ![](/images/LR.png)
 
 
-#### Cost Functions (mean difference squared)
+## Cost Functions (mean difference squared)
 
 We need a function that will minimize the parameters over our dataset. One common function that is often used is mean squared error, which measure the difference between the estimator (the dataset) and the estimated value (the prediction). It looks like this
 
@@ -30,7 +30,7 @@ It turns out we can adjust the equation a little to make the calculation down th
 
 ![](/images/MSE2.png)
 
-#### Gradient Descent
+## Gradient Descent
 
 We minimized J(ϴ) by trial and error above — just trying lots of values and visually inspecting the resulting graph. There must be a better way? Queue gradient descent. Gradient Descent is a general function for minimizing a function, in this case the Mean Squared Error cost function.
 
@@ -44,7 +44,7 @@ where α, alpha, is the learning rate, or how quickly we want to move towards th
 
 ![](/images/GD1.png)
 
-#### Linear Regression 
+## Linear Regression 
 
 Quickly summarizing:
 
