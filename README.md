@@ -1,6 +1,6 @@
 # Machine_Learning
 
-![](/images/ML.png)
+![](/images/ml.jpeg)
 
 [Machine Learning is the] field of study that gives computers the ability to learn without being explicitly programmed. —Arthur Samuel, 1959
 
@@ -23,6 +23,7 @@ The hypothesis is usually presented as
 #### Cost Functions (mean difference squared)
 
 We need a function that will minimize the parameters over our dataset. One common function that is often used is mean squared error, which measure the difference between the estimator (the dataset) and the estimated value (the prediction). It looks like this
+
 ![](/images/MSE1.png)
 
 It turns out we can adjust the equation a little to make the calculation down the track a little more simple. We end up with:
@@ -36,27 +37,41 @@ We minimized J(ϴ) by trial and error above — just trying lots of values and v
 Gradient Descent basically just does what we were doing by hand — change the theta values, or parameters, bit by bit, until we hopefully arrived a minimum.
 
 We start by initializing theta0 and theta1 to any two values, say 0 for both, and go from there. Formally, the algorithm is as follows:
+
 ![](/images/GD2.png)
 
 where α, alpha, is the learning rate, or how quickly we want to move towards the minimum. If α is too large, however, we can overshoot.
+
 ![](/images/GD1.png)
 
 #### Linear Regression 
 
 Quickly summarizing:
+
 We have a hypothesis:
 
 ![](/images/LR.png)
+
 which we need fit to our training data. We can use a cost function such Mean Squared Error:
+
 ![](/images/LR1.png)
+
 which we can minimize using gradient descent:
+
 ![](/images/LR2.png)
+
 Which leads us to our first machine learning algorithm, linear regression. The last piece of the puzzle we need to solve to have a working linear regression model is the partial derivate of the the cost function:
+
 ![](/images/LR3.png)
+
 Which turns out to be:
+
 ![](/images/LR4.png)
+
 Which gives us linear regression!
+
 ![](/images/LR5.png)
+
 With the theory out of the way, I’ll go on to implement this logic in python.
 
 
