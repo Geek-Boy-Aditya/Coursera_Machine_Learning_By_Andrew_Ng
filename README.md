@@ -1,4 +1,4 @@
-# Machine_Learning
+# Machine Learning
 
 ![](/images/ml1.png)
 
