@@ -67,7 +67,7 @@ Which leads us to our first machine learning algorithm, linear regression. The l
 
 ![](/images/LR3.png)
 
-Which turns out to be:
+Which turns out to be:-
 
 ![](/images/LR4.png)
 
