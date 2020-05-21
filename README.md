@@ -13,6 +13,7 @@ Repository containing a portfolio of machine learning projects and weekly progre
 
 I have started doing Andrew Ng’s popular machine learning course on Coursera. The first week covers a lot, at least for someone who hasn’t touched much calculus for a few years.
 
+so lets dicuss some points related to it.
 
 
 ## Model Representation
