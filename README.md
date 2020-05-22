@@ -77,4 +77,5 @@ Which gives us linear regression!
 
 With the theory out of the way, I’ll go on to implement this logic in python.
 
+## Week 2
 
