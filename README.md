@@ -59,7 +59,7 @@ which we need fit to our training data. We can use a cost function such Mean Squ
 
 ![](/images/LR1.png)
 
-which we can minimize using gradient descent:
+which we can minimize using gradient descent:-
 
 ![](/images/LR2.png)
 
