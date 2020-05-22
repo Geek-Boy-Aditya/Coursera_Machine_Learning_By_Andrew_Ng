@@ -39,7 +39,7 @@ We minimized J(ϴ) by trial and error above — just trying lots of values and v
 
 Gradient Descent basically just does what we were doing by hand — change the theta values, or parameters, bit by bit, until we hopefully arrived a minimum.
 
-We start by initializing theta0 and theta1 to any two values, say 0 for both, and go from there. Formally, the algorithm is as follows:-
+We start by initializing theta0 and theta1 to any two values, say 0 for both, and go from there. Formally, the algorithm is as follows:
 
 ![](/images/GD2.png)
 
