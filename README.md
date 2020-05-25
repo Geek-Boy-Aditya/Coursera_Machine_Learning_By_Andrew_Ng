@@ -47,7 +47,7 @@ where α, alpha, is the learning rate, or how quickly we want to move towards th
 
 ![](/images/GD1.png)
 
-## Linear Regression 
+## Linear Regression:- 
 
 Quickly summarizing:
 
