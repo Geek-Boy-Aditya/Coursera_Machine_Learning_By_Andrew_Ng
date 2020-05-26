@@ -82,5 +82,23 @@ With the theory out of the way, I’ll go on to implement this logic in python.
 
 Week 2 of Coursera’s Machine Learning course covers multiple linear regression. This is similar to univariate linear regression except rather than just a single independent variable, our model now includes two or more. Each of these variables comes with its own parameter so we can write our new hypothesis as:
 
-This is similar to univariate linear regression except rather than just a single independent variable, our model now includes two or more. Each of these variables comes with its own parameter so we can write our new hypothesis as:
+![](/images/Week2/MF1.png)
 
+Though this formula may seem complex, understanding it is quite simple. Theta zero represents the value of the hypothesis when all independent variables have a value of zero. Every other theta, theta_i, can be thought of as how much h(x) increases when x_i increases by 1 unit. That is because, if we hold every x constant, except x_i which we increase by 1, then we can see that h(x_1,x_2…(x_i)+1,x_(i+1)…x_n)-h(x_1,x_2,…x_i,x_(i+1)…x_n) = theta_i*(x_i+1)-theta_i*(x_i)=theta_i.
+
+To make the notation cleaner we can group all the thetas into a column vector theta, all the variables into another column vector x, and by defining x_0=1 we can write h(x) succinctly as:
+
+
+![](/images/Week2/MF2.png)
+
+As before, we want to find the parameters theta that minimize our cost function J:
+
+![](/images/Week2/MF3.png)
+
+and we achieve this through the gradient descent algorithm
+
+![](/images/Week2/MF4.png)
+
+The following image compares gradient descent with one variable to gradient descent with multiple variables:
+
+![](/images/Week2/MF5.png)
