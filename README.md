@@ -79,3 +79,7 @@ With the theory out of the way, I’ll go on to implement this logic in python.
 
 ## Week 2
 
+Week 2 of Coursera’s Machine Learning course covers multiple linear regression. This is similar to univariate linear regression except rather than just a single independent variable, our model now includes two or more. Each of these variables comes with its own parameter so we can write our new hypothesis as:
+
+This is similar to univariate linear regression except rather than just a single independent variable, our model now includes two or more. Each of these variables comes with its own parameter so we can write our new hypothesis as:
+
