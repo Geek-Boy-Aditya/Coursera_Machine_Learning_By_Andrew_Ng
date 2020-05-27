@@ -109,3 +109,6 @@ Two techniques to help with this are feature scaling and mean normalization. Fea
 
 x i:= x i−μ i / si
 
+![](/images/Week2/MF6.png)
+
+
