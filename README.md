@@ -111,4 +111,6 @@ x i:= x i−μ i / si
 
 ![](/images/Week2/MF6.png)
 
+Imagine you’re trying to model data with 2 variables, one being household income, the second the number of children in the home. It’s immediately clear that these 2 variables exist on different scales. The income variable can range from 0 to the millions or even billions. The second variable probably won’t go over 10. In cases like these its important to scale the data which can involve dividing each variable by its value range or some measure of dispersion like standard deviation. Doing so will cause the variables to have the same scale and speed up the rate at which gradient descent converges.
+
 
