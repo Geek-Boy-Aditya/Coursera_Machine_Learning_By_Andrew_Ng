@@ -102,3 +102,10 @@ and we achieve this through the gradient descent algorithm
 The following image compares gradient descent with one variable to gradient descent with multiple variables:
 
 ![](/images/Week2/MF5.png)
+
+We can speed up gradient descent by having each of our input values in roughly the same range.
+
+Two techniques to help with this are feature scaling and mean normalization. Feature scaling involves dividing the input values by the range (i.e. the maximum value minus the minimum value) of the input variable, resulting in a new range of just 1. Mean normalization involves subtracting the average value for an input variable from the values for that input variable resulting in a new average value for the input variable of just zero. To implement both of these techniques, adjust your input values as shown in this formula:
+
+x i:= x i−μ i / si
+
