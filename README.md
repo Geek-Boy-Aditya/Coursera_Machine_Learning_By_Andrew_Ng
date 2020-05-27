@@ -113,4 +113,9 @@ x i:= x i−μ i / si
 
 Imagine you’re trying to model data with 2 variables, one being household income, the second the number of children in the home. It’s immediately clear that these 2 variables exist on different scales. The income variable can range from 0 to the millions or even billions. The second variable probably won’t go over 10. In cases like these its important to scale the data which can involve dividing each variable by its value range or some measure of dispersion like standard deviation. Doing so will cause the variables to have the same scale and speed up the rate at which gradient descent converges.
 
+Another pragmatic factor to consider is how to set the learning rate alpha. If alpha is too small gradient descent will take a while to converge. If it is too large, gradient descent may never converge. The best way to figure out the optimal alpha is through trial and error. Start with an alpha of 0.001 and increment upward to 1. Assess how the cost function converges which each alpha, does it decrease quickly, slowly or oscillate? Picking the optimal alpha will improve gradient descent’s ability to converge.
+
+The course then touched upon the normal equation which is a mathematical formula for figuring out the optimal values of theta.
+
+
 
