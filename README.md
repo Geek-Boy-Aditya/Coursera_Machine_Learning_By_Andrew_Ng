@@ -18,7 +18,7 @@ so lets dicuss some points related to it.
 
 ## Model Representation
 First, the goal of most machine learning algorithms is to construct a model: a hypothesis that can be used to estimate Y based on X. The hypothesis, or model, maps inputs to outputs. So, for example, say I train a model based on a bunch of housing data that includes the size of the house and the sale price. By training a model, I can give you an estimate on how much you can sell your house for based on it’s size.This is an example of a regression problem — given some input, we want to predict a continuous output.
-The hypothesis is usually presented as:
+The hypothesis is usually presented as:-
 
 ![](/images/LR.png)
 
