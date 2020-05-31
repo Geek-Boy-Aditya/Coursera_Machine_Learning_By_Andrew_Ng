@@ -122,7 +122,7 @@ The course then touched upon the normal equation which is a mathematical formula
 
 Unfortunately the course doesn’t go over how it’s derived but I found a nice post that goes over it. The cool thing about the normal equation is you don’t need to rely on the iterative process of gradient descent to find your optimal values of theta. For datasets with a small number of features this is very convenient and efficient. However once you start to get 10000 or more feature, multiplying those enormous matrices together becomes incredibly inefficient and gradient descent is the way to go. In addition, the normal equation, while applicable to linear regression, can’t be used for other ML methods like logistic regression while gradient descent can.
 
-### Week 3
+
 
 
 
