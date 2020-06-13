@@ -100,7 +100,7 @@ and we achieve this through the gradient descent algorithm
 
 ![](/images/Week2/MF4.png)
 
-The following image compares gradient descent with one variable to gradient descent with multiple variables:
+The following image compares gradient descent with one variable to gradient descent with multiple variables:-
 
 ![](/images/Week2/MF5.png)
 
